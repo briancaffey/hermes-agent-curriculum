@@ -1,0 +1,1 @@
+export { default } from "/home/brian/git/hermes-agent-curriculum/node_modules/@nuxt-themes/elements/components/globals/NuxtImg.vue"

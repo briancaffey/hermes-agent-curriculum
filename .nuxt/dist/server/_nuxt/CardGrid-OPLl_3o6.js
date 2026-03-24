@@ -1,0 +1,61 @@
+import "./MDCSlot-BSS5qrFU.js";
+import { defineComponent, mergeProps, useSSRContext } from "vue";
+import { ssrRenderAttrs, ssrInterpolate, ssrRenderSlot as ssrRenderSlot$1 } from "vue/server-renderer";
+import { s as ssrRenderSlot } from "./ssrSlot-vN8hJK4d.js";
+import { _ as _export_sfc } from "../server.mjs";
+import "./node-wbLVSDsX.js";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/ofetch/dist/node.mjs";
+import "#internal/nuxt/paths";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/hookable/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/unctx/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/h3/dist/index.mjs";
+import "vue-router";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/defu/dist/defu.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/ufo/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/ohash/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/klona/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/nuxt/node_modules/cookie-es/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/destr/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/nuxt/node_modules/ohash/dist/index.mjs";
+import "nanoid";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/scule/dist/index.mjs";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/nuxt/node_modules/@unhead/vue/dist/index.mjs";
+import "@iconify/vue/dist/offline";
+import "@iconify/vue";
+import "@vueuse/integrations/useFuse";
+import "@vueuse/integrations/useFocusTrap";
+import "/home/brian/git/hermes-agent-curriculum/node_modules/perfect-debounce/dist/index.mjs";
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "CardGrid",
+  __ssrInlineRender: true,
+  props: {
+    title: {
+      type: String,
+      default: "Features"
+    }
+  },
+  setup(__props) {
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<section${ssrRenderAttrs(mergeProps({ class: "card-grid" }, _attrs))} data-v-2cd55f41>`);
+      ssrRenderSlot(_ctx.$slots, "root", {}, null, _push, _parent);
+      _push(`<h2 class="title" data-v-2cd55f41>`);
+      ssrRenderSlot(_ctx.$slots, "title", { unwrap: "p" }, () => {
+        _push(`${ssrInterpolate(__props.title)}`);
+      }, _push, _parent);
+      _push(`</h2><div class="layout" data-v-2cd55f41>`);
+      ssrRenderSlot$1(_ctx.$slots, "default", {}, null, _push, _parent);
+      _push(`</div></section>`);
+    };
+  }
+});
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/@nuxt-themes/elements/components/landing/CardGrid.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const CardGrid = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-2cd55f41"]]);
+export {
+  CardGrid as default
+};
+//# sourceMappingURL=CardGrid-OPLl_3o6.js.map
