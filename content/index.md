@@ -23,13 +23,13 @@ By the end of this course, you'll understand:
 
 | Module | Topic | Estimated Time |
 |--------|-------|----------------|
-| [01](./docs/overview) | Overview & Mental Model | 30 min |
-| [02](./docs/core-loop) | Core Agent Loop & Conversation Flow | 60 min |
-| [03](./docs/tools-system) | Tools System & Toolsets | 90 min |
-| [04](./docs/gateway-platforms) | Gateway & Messaging Platforms | 60 min |
-| [05](./docs/sessions-memory) | Sessions, Memory & Persistence | 45 min |
-| [06](./docs/skills-learning) | Skills System & Self-Improvement | 75 min |
-| [07](./docs/advanced-topics) | Advanced Topics: Subagents, Cron, MCP | 60 min |
+| [01](./docs/01-overview/overview) | Overview & Mental Model | 30 min |
+|| [02](./docs/02-core-loop/core-loop) | Core Agent Loop & Conversation Flow | 60 min |
+|| [03](./docs/03-tools-system/tools-system) | Tools System & Toolsets | 90 min |
+|| [04](./docs/04-gateway-platforms/gateway-platforms) | Gateway & Messaging Platforms | 60 min |
+|| [05](./docs/05-sessions-memory/sessions-memory) | Sessions, Memory & Persistence | 45 min |
+|| [06](./docs/06-skills-learning/skills-learning) | Skills System & Self-Improvement | 75 min |
+|| [07](./docs/07-advanced-topics/advanced-topics) | Advanced Topics: Subagents, Cron, MCP | 60 min |
 
 **Total Time:** ~6 hours (spread over multiple sessions)
 
@@ -63,4 +63,4 @@ Each module includes:
 
 ---
 
-Ready to start? Begin with [Module 01: Overview & Mental Model](./docs/overview) 🚀
+Ready to start? Begin with [Module 01: Overview & Mental Model](./docs/01-overview/overview) 🚀

@@ -706,4 +706,4 @@ def update_broken_skills():
 
 ---
 
-**Next:** [Module 07: Advanced Topics](../07-advanced-topics/README.md)
+**Next:** [Module 07: Advanced Topics](../07-advanced-topics/advanced-topics.md)

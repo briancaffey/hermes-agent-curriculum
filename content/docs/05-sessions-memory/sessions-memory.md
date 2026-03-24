@@ -765,4 +765,4 @@ def get_current_session(session_key):
 
 ---
 
-**Next:** [Module 06: Skills System & Self-Improvement](../06-skills-learning/README.md)
+**Next:** [Module 06: Skills System & Self-Improvement](../06-skills-learning/skills-learning.md)

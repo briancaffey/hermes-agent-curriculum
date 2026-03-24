@@ -548,4 +548,4 @@ if "browser_navigate" in schemas and "web_search" in schemas:
 
 ---
 
-**Next:** [Module 03: Tools System & Toolsets](../03-tools-system/README.md)
+**Next:** [Module 03: Tools System & Toolsets](../03-tools-system/tools-system.md)

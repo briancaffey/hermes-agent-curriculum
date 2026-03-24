@@ -651,4 +651,4 @@ def process(data, background=False):
 
 ---
 
-**Next:** [Module 04: Gateway & Messaging Platforms](../04-gateway-platforms/README.md)
+**Next:** [Module 04: Gateway & Messaging Platforms](../04-gateway-platforms/gateway-platforms.md)

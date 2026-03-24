@@ -295,4 +295,4 @@ A: Built-in skills are in `optional-skills/`. User-installed skills go in `~/.he
 
 ---
 
-**Next:** [Module 02: Core Agent Loop & Conversation Flow](../02-core-loop/README.md)
+**Next:** [Module 02: Core Agent Loop & Conversation Flow](../02-core-loop/core-loop.md)

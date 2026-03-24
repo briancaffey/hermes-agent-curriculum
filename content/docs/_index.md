@@ -10,13 +10,13 @@ This course will take you from zero to deep understanding of how Hermes Agent wo
 
 | Module | Topic | Estimated Time |
 |--------|-------|----------------|
-| **01** | [Overview & Mental Model](./01-overview/README.md) | 30 min |
-| **02** | [Core Agent Loop & Conversation Flow](./02-core-loop/README.md) | 60 min |
-| **03** | [Tools System & Toolsets](./03-tools-system/README.md) | 90 min |
-| **04** | [Gateway & Messaging Platforms](./04-gateway-platforms/README.md) | 60 min |
-| **05** | [Sessions, Memory & Persistence](./05-sessions-memory/README.md) | 45 min |
-| **06** | [Skills System & Self-Improvement](./06-skills-learning/README.md) | 75 min |
-| **07** | [Advanced Topics: Subagents, Cron, MCP](./07-advanced-topics/README.md) | 60 min |
+| **01** | [Overview & Mental Model](./01-overview/overview.md) | 30 min |
+| **02** | [Core Agent Loop & Conversation Flow](./02-core-loop/core-loop.md) | 60 min |
+| **03** | [Tools System & Toolsets](./03-tools-system/tools-system.md) | 90 min |
+| **04** | [Gateway & Messaging Platforms](./04-gateway-platforms/gateway-platforms.md) | 60 min |
+| **05** | [Sessions, Memory & Persistence](./05-sessions-memory/sessions-memory.md) | 45 min |
+| **06** | [Skills System & Self-Improvement](./06-skills-learning/skills-learning.md) | 75 min |
+| **07** | [Advanced Topics: Subagents, Cron, MCP](./07-advanced-topics/advanced-topics.md) | 60 min |
 
 ---
 
