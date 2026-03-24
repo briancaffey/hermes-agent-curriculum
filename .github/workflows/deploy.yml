@@ -1,20 +1,15 @@
 name: Deploy Docus Site to GitHub Pages
 
 on:
-  # Trigger on pushes to main branch
   push:
     branches:
       - main
-  # Allow manual trigger from Actions tab
   workflow_dispatch:
 
-# Allow only one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+permissions:
+  contents: write
 
 jobs:
-  # Build and deploy job
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -33,10 +28,9 @@ jobs:
       - name: Build Docus site
         run: npm run generate
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/public
-          force_orphan: true
+          folder: dist/public
           branch: gh-pages
+          clean: true
