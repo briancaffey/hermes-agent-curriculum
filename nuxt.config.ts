@@ -3,8 +3,9 @@ export default {
   // Docus preset
   extends: ['@nuxt-themes/docus'],
 
-  // App configuration
+  // Base URL for GitHub Pages subdomain deployment
   app: {
+    baseURL: '/hermes-agent-curriculum/',
     head: {
       title: 'Hermes Agent Architecture Course',
       meta: [
@@ -13,8 +14,20 @@ export default {
         { name: 'description', content: 'A comprehensive, step-by-step curriculum to understand the Hermes Agent codebase from NousResearch.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/hermes-agent-curriculum/favicon.ico' }
       ]
+    }
+  },
+
+  // Nitro configuration for GitHub Pages
+  nitro: {
+    baseURL: '/hermes-agent-curriculum/',
+    prerender: {
+      failOnError: false
+    },
+    // Output to dist folder for GitHub Actions
+    output: {
+      dir: 'dist'
     }
   },
 
