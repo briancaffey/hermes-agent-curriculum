@@ -1,0 +1,26 @@
+{
+  "name": "hermes-agent-curriculum",
+  "version": "1.0.0",
+  "description": "Hermes Agent Architecture Course - A comprehensive curriculum to understand the Hermes Agent codebase",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancaffey/hermes-agent-curriculum.git"
+  },
+  "keywords": ["hermes", "agent", "ai", "course", "curriculum", "nousresearch"],
+  "author": "Brian Caffey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briancaffey/hermes-agent-curriculum/issues"
+  },
+  "homepage": "https://briancaffey.github.io/hermes-agent-curriculum",
+  "dependencies": {
+    "@nuxt-themes/docus": "^1.15.1"
+  }
+}
